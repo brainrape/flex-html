@@ -7,7 +7,7 @@ import Flex
 -- HOLY GRAIL LAYOUT EXAMPLE
 ----------------------------
 
-background : Float -> String -> Html
+background : Float -> String -> Html msg
 background grow color =
   let
       backgroundStyles =
@@ -19,7 +19,7 @@ background grow color =
         []
 
 
-holyGrail : Html
+holyGrail : Html msg
 holyGrail =
   let
       topSection    = background 1 "red"
@@ -57,6 +57,6 @@ holyGrail =
         ]
 
 
-main : Html
+main : Html msg
 main =
   holyGrail

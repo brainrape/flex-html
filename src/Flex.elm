@@ -1,4 +1,4 @@
-module Flex where
+module Flex exposing (..)
 
 {-| Companion library to elm-html. Helps with flexbox layout
 
