@@ -1,7 +1,7 @@
 {
-    "version": "2.0.1",
+    "version": "1.0.1",
     "summary": "Flexbox layout for elm-html",
-    "repository": "https://github.com/TheSeamau5/flex-html.git",
+    "repository": "https://github.com/brainrape/flex-html.git",
     "license": "BSD3",
     "source-directories": [
         "src"
